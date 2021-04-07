@@ -217,7 +217,7 @@ Resources:
     Type: 'AWS::Route53::RecordSet'
     Properties:
       AliasTarget:
-        HostedZoneId: Z2FDTNDATAQYW2
+        HostedZoneId: Z05079391R5LXQWKJ503M
         DNSName: !Sub '${CloudFront.DomainName}'
       HostedZoneName: !Sub '${DomainName}.'
       Name: !Sub '${DomainName}.'
@@ -226,7 +226,7 @@ Resources:
     Type: 'AWS::Route53::RecordSet'
     Properties:
       AliasTarget:
-        HostedZoneId: Z2FDTNDATAQYW2
+        HostedZoneId: Z05079391R5LXQWKJ503M
         DNSName: !Sub '${WWWCloudFront.DomainName}'
       HostedZoneName: !Sub '${DomainName}.'
       Name: !Sub 'www.${DomainName}.'
