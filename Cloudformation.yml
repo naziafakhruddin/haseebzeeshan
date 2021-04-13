@@ -18,7 +18,7 @@ Parameters:
   GitHubRepo:
     Description: Static site repo name.
     Type: String
-    Default: haseebzeeshan.com
+    Default: haseebzeeshan
   GitHubBranch:
     Description: The branch that will trigger build/deploy.
     Type: String
