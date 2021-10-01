@@ -1,27 +1,380 @@
 <!DOCTYPE html>
-<html lang = "en">
-  <head>
-	<meta charset = "UTF-8">
-      <title> My web page </title>
-		<style>
-		  body {
-			background-color: teal;
-		  }
-		  h1 {
-		    color: white;
-            font-size: 100px;
-		  }
-		</style>
-	</head>
-	<body>
-	<div align = "center">
-		<h1>Hello people of the World and beyond :-)</h1>
-		<h3>Let's learn coding !!!!</h1>
-		<h3>Everything you need to know !!!!!!</h3>
-		<h3>This is going to be awesome and you are going to have fun and enjoyment</h3>
-		<h3>Happy Holidays :-)</h3>
-		<h3>How is it going ?</h3>
-		<h3>Happy New Year. Enjoy :-)</h3>
-	</div>
-	</body>
+<html>
+    <head>
+        <link rel ="icon" type="image/png" href="images/favicon-16x16.png">
+        <title>My Portfolio</title>
+        
+        <meta charset = "UTF-8">
+        <meta name = "author" content = "Portfolio" >
+        <meta name = "viewport" content = "width = device-width,initial-scale = 1.0" >
+        <meta name = "refresh" content = "600" >
+        <meta name = "keywords" content = "Portfolio" >
+        <meta name = "robots" content = "onindex,nofollow" >
+        <link rel = "stylesheet" type = "text/css" href = "utilities.css">
+        <link rel = "stylesheet" type = "text/css" href = "style.css">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" 
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body id="home">
+       <header class="hero">
+           <div id="navbar" class="navbar">
+               <h1 class="logo text-primary">
+                   HZ
+               </h1>
+               <nav>
+                   <ul>
+                       <li><a href="#home">HOME</a></li>
+                       <li><a href="projects.html">PROJECTS</a></li>
+                       <li><a href="blogs.html">COMPOSITIONS</a></li>
+                       <li><a href="videos.html">VIDEOS</a></li>
+                   </ul>
+               </nav>
+           </div>
+           <div class="content">
+               <h1>INDULGE IN <span class="change"></span></h1>
+           </div>
+       </header>
+
+
+
+<!--Projects Section --> 
+ <section id="projects" data-aos="fade-up">
+    <div class="headings">
+        <h2 >PROJECTS</h2>
+        <p>Projects explore different aspects of Creative Coding and Digital Art which include 2D and 3D Animations, Games, Illusions and Sound Interactions</p>
+        <a target="_blank" href="projects.html" class="btn">EXPLORE</a>
+    </div>
+    <div class="portfolio">
+        <div class="item">
+            <img class="img" src="images/fishy.png" alt="fish">
+            <div class="action" >
+                <a href="https://youtu.be/oEdwqcqQm3Y" target="_blank">3D Fish</a>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio" >
+        <div class="item">
+            <img class="img" src="images/rocket.png" alt="Spacerocket">
+            <div class="action">
+                <a href="https://youtu.be/cPcQ9fPDDVo" target="_blank"> Spacerocket </a>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="item">
+            <img class="img" src="images/piano.png" alt="3D Piano">
+            <div class="action">
+                <a href="https://youtu.be/7s3SjN4roL4"  target="_blank" >3D Self Playing Piano  </a>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="item">
+           <img class="img" src="images/starship.png" alt="starship"> 
+           <div class="action">
+            <a href="https://youtu.be/N7hJmlVUhmo"  target="_blank">Starship</a>
+           </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="item">
+            <img class="img" src="images/solar.png" alt="board game">
+            <div class="action">
+                <a href="https://youtu.be/1TN7pEu6bDg" target="_blank" >Solar System</a>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio">
+        <div class="item">
+                <img class="img" src="images/drone.png" alt="moving dots illlusion">
+            <div class="action">
+                <a href="https://www.youtube.com/watch?v=ij_XIC0CPnQ" target="_blank">3D Flying Drone</a>
+            </div>
+        </div>
+    </div>
+ </section> 
+ 
+ 
+<!--Videos Section-->
+<section id="videos" data-aos="zoom-in">
+    <div class="headings">
+        <h2 >Video Tutorials</h2>
+        <p>On my YouTube Channel, I create free resources so others can also learn and explore different aspects of Creative Coding and Digital Art which include 2D and 3D Animations, Games, Illusions and Sound Interactions</p>
+        <a target="_blank" href="videos.html" class="btn">EXPLORE</a>
+    </div>
+    <div class="video-container">
+        <div class="main-video">
+            <iframe src="https://www.youtube.com/embed/-Iwy6vME5jQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h3>PYTHON TUTORIAL </h3>
+            <p>This tutorial shows how to correctly find angle between two points irrespective of the location of points using atan2 function in Python. It also shows how to find distance between two points using distance formula.</p>
+        </div>
+        <div class="other-video">
+            <iframe src="https://www.youtube.com/embed/bKNXpjgwRn0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/t9M0pqGvQj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/GYFiu7nLTak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/VfFLrv2KirI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+<!--Blog Section-->
+<section id="blog" data-aos="zoom-up">
+    <div class="headings">
+        <h2 >BLOGS </h2>
+        <p>My blogs are about exploring different aspects of Creative Coding and Digital Art which include 2D and 3D Animations, Games, Illusions and Sound Interactions</p>
+        <a target="_blank" href="blogs.html" class="btn">EXPLORE</a>
+    </div>
+    <div class="blog-container">
+        <a target="_blank" href="https://medium.com/@haseebzeeshan2010/making-a-floating-illusion-in-3d-b483321ffdf3"><img src="images/float.png" alt="art"></a>
+        <div class="blog-head">
+            <h3>Floating Illusion in 3D</h3>
+        </div>
+    </div>
+    <div class="blog-container">
+        <a target="_blank" href="https://medium.com/@haseebzeeshan2010/how-to-make-planetary-motion-in-webgl-784d86e7a11c"><img src="images/planet.png" alt="art"></a>
+        <div class="blog-head">
+            <h3>Planetary Motion in WEBGL</h3>
+        </div>
+    </div>
+    <div class="blog-container">
+        <a target="_blank" href="https://medium.com/@haseebzeeshan2010/wireshark-demystified-f14c1b30b1dc"><img src="images/wireshark.png" alt="art"></a>
+        <div class="blog-head">
+            <h3>Wireshark Demystified</h3>
+        </div>
+    </div>
+    <div class="blog-container">
+        <a target="_blank" href="https://medium.com/@haseebzeeshan2010/multiple-dice-game-using-ascii-art-in-python-9f9ad4f63fd3"><img src="images/dicegame.png" alt="art"></a>
+        <div class="blog-head">
+            <h3>Multiple Dice Game using ASCII Art in Python</h3>
+        </div>
+    </div>
+</section>  
+
+<!--Participation Section-->
+<main class="container">
+    <h2 class="main-header">PARTICIPATIONS</h2>
+    <section class="card">
+        <div>
+            <img src="images/codeclubwin2.png" alt="codeclubwin">
+        </div>
+        
+        <div>
+            <h3>DIGITAL COLLAGE COMPETITION - HTML Website Winner</h3>
+            <p>
+             In April 2018, I have won the "Digital Collage Competition" organized 
+             by the Code Club UK in the HTML website category.The Code Club UK blog
+             announcing the winners. 
+             <br> 
+             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">After much deliberation we have chosen the winners from our digital collage competition! <br><br>Read our blog to find out who won and see the winning entries. <a href="https://t.co/HQDAxWR2Ez">https://t.co/HQDAxWR2Ez</a> <a href="https://t.co/V6l1dU52dU">pic.twitter.com/V6l1dU52dU</a></p>&mdash; Code Club UK (@CodeClub) <a href="https://twitter.com/CodeClub/status/984072139748847616?ref_src=twsrc%5Etfw">April 11, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+             
+            </p>
+            <a href="https://blog.codeclub.org/2018/04/page/2/" target="_blank" class="btn"> READ HERE</a>
+        </div>
+    </section>
+    <section class="card" data-aos="fade-up">
+    <div>
+        <img src="images/mentor.png" alt="book">
+    </div>
+        
+    <div>
+        <h3>SCRACTH DAY 2018</h3>
+        <p>
+            I have mentored a group of students in Scratch Day 2018 organized by CodeClub Hounslow.
+            CodeClub UK team visited our programming club.
+        </p>
+        <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Loved seeing all the ways you celebrated <a href="https://twitter.com/hashtag/ScratchDay?src=hash&amp;ref_src=twsrc%5Etfw">#ScratchDay</a> over the weekend. We celebrated with a visit to <a href="https://twitter.com/CodeHounslow?ref_src=twsrc%5Etfw">@CodeHounslow</a> <a href="https://t.co/EMWz4ycgOa">pic.twitter.com/EMWz4ycgOa</a></p>&mdash; Code Club UK (@CodeClub) <a href="https://twitter.com/CodeClub/status/995945971707273216?ref_src=twsrc%5Etfw">May 14, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    </section>
+    <section class="card" data-aos="fade-up">
+    <div>
+        <img src="images/aws3.png" alt="book">
+    </div>
+     
+     <div>
+         <h3>AMAZON WEB SERVICES SUMMIT 2018 </h3>
+         <p>
+              I was selected to present my project of Robotic Pet in AWS Summit in there Innovation Hub,
+              where I used Alexa to control the Robotic pet.
+             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Robotic Pet demo with one of our favourite builders at the Innovation Hub💡. <a href="https://twitter.com/hashtag/AWSSummit?src=hash&amp;ref_src=twsrc%5Etfw">#AWSSummit</a> London 🇬🇧 <a href="https://t.co/kNvDn9imda">pic.twitter.com/kNvDn9imda</a></p>&mdash; AWSonAir (@AWSonAir) <a href="https://twitter.com/AWSonAir/status/994576689194815489?ref_src=twsrc%5Etfw">May 10, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+         </p>
+     </div>
+     </section>
+     <section class="card">
+        <div>
+            <img src="images/coolest4.png" alt="project explanation">
+        </div>
+        
+        <div>
+            <h3>COOLEST PROJECTS 2018</h3>
+            <p>
+             I have taken part in the Coolest Project 2018 with my Robotic Pet project, which was 
+             then selected for the AWS Summit 2018.The blog about this event got published on 
+             Code Club UK website.
+             <br> 
+             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">An eight year old boy who created a robotic pet dog. Two eleven year old girls who designed a complex, multi-level game in Scratch. <br><br>This is what young people can achieve with code. Read our blog to find out more. <a href="https://t.co/bAHvOSNe75">https://t.co/bAHvOSNe75</a> <a href="https://t.co/vROxBlccPH">pic.twitter.com/vROxBlccPH</a></p>&mdash; Code Club UK (@CodeClub) <a href="https://twitter.com/CodeClub/status/1009910078349012992?ref_src=twsrc%5Etfw">June 21, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            </p>
+            <a href="https://blog.codeclub.org/2018/06/18/what-young-people-can-achieve-with-code/" target="_blank" class="btn"> READ HERE</a>
+        </div>
+    </section>
+    <section class="card" data-aos="fade-up">
+     <div>
+        <img src="images/hop1.jpg" alt="book">
+     </div>
+     
+     <div>
+         <h3>ENGINEERS OF THE FUTURE 2018- HOUSES OF PARLIMENT</h3>
+         <p>
+              As the winners of the First Lego League Jr. Competition, we were invited to show 
+              our projects in the celebration of Enginners of the Future at the Houses of Parliment. 
+              <blockquote class="twitter-tweet" ><p lang="en" dir="ltr">MP, <a href="https://twitter.com/vickyford?ref_src=twsrc%5Etfw">@vickyford</a> and Wera Hobhouse with the <a href="https://twitter.com/FLLUK?ref_src=twsrc%5Etfw">@FLLUK</a> team, the Robosapiens! <a href="https://twitter.com/hashtag/EngineersoftheFuture?src=hash&amp;ref_src=twsrc%5Etfw">#EngineersoftheFuture</a> <a href="https://t.co/wGfQ55Azo0">pic.twitter.com/wGfQ55Azo0</a></p>&mdash; IET (@TheIET) <a href="https://twitter.com/TheIET/status/1072869635580583937?ref_src=twsrc%5Etfw">December 12, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            
+              <blockquote class="twitter-tweet"><p lang="en" dir="ltr">A fantastic look back at the recent event at the <a href="https://twitter.com/HouseofCommons?ref_src=twsrc%5Etfw">@HouseofCommons</a> <a href="https://twitter.com/UKParliament?ref_src=twsrc%5Etfw">@UKParliament</a> where the winners of the <a href="https://twitter.com/hashtag/EngineersOfTheFuture?src=hash&amp;ref_src=twsrc%5Etfw">#EngineersOfTheFuture</a> competition showcased their award-winning engineering projects! Well done everybody! @LEGOeducationUK <a href="https://twitter.com/YoEgovuk?ref_src=twsrc%5Etfw">@YoEgovuk</a> <a href="https://twitter.com/hashtag/YoE?src=hash&amp;ref_src=twsrc%5Etfw">#YoE</a> <a href="https://t.co/KAha5ViMlF">https://t.co/KAha5ViMlF</a></p>&mdash; FIRST LEGO League UK and Ireland (@FLLUK) <a href="https://twitter.com/FLLUK/status/1082301245753344005?ref_src=twsrc%5Etfw">January 7, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+         </p>
+     </div>
+     </section>
+     <section class="card">
+        <div>
+            <img src="images/process.png" alt="book">
+        </div>
+        
+        <div>
+            <h3>PROCESSING COMMUNITY DAY 2019</h3>
+            <p>
+             I have attended the Processing Community Day 2019, where I met lots of inspiring programmers
+             and learned about machine learning tools.
+             <br> 
+             <blockquote class="instagram-media" data-instgrm-captioned data-instgrm-permalink="https://www.instagram.com/p/BtGb9XghIAI/?utm_source=ig_embed&amp;utm_campaign=loading" data-instgrm-version="14" style=" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);"><div style="padding:16px;"> <a href="https://www.instagram.com/p/BtGb9XghIAI/?utm_source=ig_embed&amp;utm_campaign=loading" style=" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;" target="_blank"> <div style=" display: flex; flex-direction: row; align-items: center;"> <div style="background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;"></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;"></div></div></div><div style="padding: 19% 0;"></div> <div style="display:block; height:50px; margin:0 auto 12px; width:50px;"><svg width="50px" height="50px" viewBox="0 0 60 60" version="1.1" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-511.000000, -20.000000)" fill="#000000"><g><path d="M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631"></path></g></g></g></svg></div><div style="padding-top: 8px;"> <div style=" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;">View this post on Instagram</div></div><div style="padding: 12.5% 0;"></div> <div style="display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;"><div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);"></div> <div style="background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;"></div> <div style="background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);"></div></div><div style="margin-left: 8px;"> <div style=" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;"></div> <div style=" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)"></div></div><div style="margin-left: auto;"> <div style=" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);"></div> <div style=" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);"></div> <div style=" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);"></div></div></div> <div style="display: flex; flex-direction: column; flex-grow: 1; justify-content: center; margin-bottom: 24px;"> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 224px;"></div> <div style=" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 144px;"></div></div></a><p style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;"><a href="https://www.instagram.com/p/BtGb9XghIAI/?utm_source=ig_embed&amp;utm_campaign=loading" style=" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none;" target="_blank">A post shared by Creative Technology Lab (@creativetechnologylab)</a></p></div></blockquote> <script async src="//www.instagram.com/embed.js"></script>
+             
+            </p>
+            
+        </div>
+    </section>
+     <section class="card">
+        <div>
+            <img src="images/fll3.JPG" alt="boy holding trophy">  
+        </div>
+        <div>
+            <h3>FIRST LEGO LEAGUE UK FINALS 2019 - BRISTOL</h3>
+            <p>
+             In the First Lego League UK Finals which was held in Bristol , our team won "Master Programmer Award". I get to represent England region.
+             <br> 
+             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Amazing work by all the junior teams <a href="https://twitter.com/FLLUK?ref_src=twsrc%5Etfw">@FLLUK</a> final! Motorised microgravity countermeasures in @ lego from Team Robosapiens. <a href="https://twitter.com/hashtag/STEM?src=hash&amp;ref_src=twsrc%5Etfw">#STEM</a> <a href="https://twitter.com/hashtag/INTOORBIT?src=hash&amp;ref_src=twsrc%5Etfw">#INTOORBIT</a> <a href="https://twitter.com/hashtag/MISSIONMOON?src=hash&amp;ref_src=twsrc%5Etfw">#MISSIONMOON</a> <a href="https://twitter.com/hashtag/ReadySetSpace?src=hash&amp;ref_src=twsrc%5Etfw">#ReadySetSpace</a> <a href="https://t.co/SqinWiZwNB">pic.twitter.com/SqinWiZwNB</a></p>&mdash; edchester (@edchester) <a href="https://twitter.com/edchester/status/1096730305694785536?ref_src=twsrc%5Etfw">February 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+             <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Robosapiens have won the Master Programmer Award. Woohoo <a href="https://twitter.com/hashtag/MISSIONMOON?src=hash&amp;ref_src=twsrc%5Etfw">#MISSIONMOON</a> <a href="https://twitter.com/hashtag/FLLUK?src=hash&amp;ref_src=twsrc%5Etfw">#FLLUK</a> Jr. Thank you <a href="https://twitter.com/IETeducation?ref_src=twsrc%5Etfw">@IETeducation</a> <a href="https://twitter.com/iET?ref_src=twsrc%5Etfw">@IET</a> @LEGOeducationUK for inviting us to the FLLUK Finals in Bristol and representing all the FLLJR teams. <a href="https://t.co/wCMsJbGVYT">pic.twitter.com/wCMsJbGVYT</a></p>&mdash; ZeeH (@HzRobo) <a href="https://twitter.com/HzRobo/status/1096906056754700289?ref_src=twsrc%5Etfw">February 16, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+            </p>        
+        </div> 
+    </section>
+    <section class="card" data-aos="fade-up">
+        <div>
+            <img src="images/coolest4.JPG" alt="book">
+        </div>
+        
+        <div>
+            <h3>COOLEST PROJECT 2019</h3>
+            <p>
+                 I took part in the Coolest Project 2019 - Manchester, were I presented my 
+                 "Interactive Simulator Project" using Machine Learning.
+                 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Greg Foot <a href="https://twitter.com/gregfoot?ref_src=twsrc%5Etfw">@gregfoot</a> and Maddie Moate <a href="https://twitter.com/maddiemoate?ref_src=twsrc%5Etfw">@maddiemoate</a> trying out my Interactive Simulator project <a href="https://twitter.com/hashtag/CoolestProject?src=hash&amp;ref_src=twsrc%5Etfw">#CoolestProject</a> <a href="https://t.co/ZpeGvXkwdb">pic.twitter.com/ZpeGvXkwdb</a></p>&mdash; ZeeH (@HzRobo) <a href="https://twitter.com/HzRobo/status/1101818229620727808?ref_src=twsrc%5Etfw">March 2, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </p>
+            
+        </div>
+        </section>
+        <section class="card" data-aos="fade-up">
+            <div>
+                <img src="images/coolest5.png" alt="book">
+            </div>
+            
+            <div>
+                <h3>COOLEST PROJECT 2020</h3>
+                <p>
+                     I took part in the Coolest Project 2020 - Online, were I presented my 
+                     "3D Drone Simulation" using p5.js WEBGL.
+                     <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Drone simulator in <a href="https://twitter.com/p5xjs?ref_src=twsrc%5Etfw">@p5xjs</a> 3D WEBGL with all the maneuvers. Great work. 👍 <a href="https://twitter.com/coolestprojects?ref_src=twsrc%5Etfw">@coolestprojects</a> <a href="https://t.co/4XrMgB7bza">https://t.co/4XrMgB7bza</a></p>&mdash; Hounslow Code Club (@CodeHounslow) <a href="https://twitter.com/CodeHounslow/status/1278374042823786497?ref_src=twsrc%5Etfw">July 1, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>                        
+                </p>
+                <a href="https://online.coolestprojects.org/projects/191" target="_blank" class="btn">READ MORE</a> 
+            </div>
+            </section>
+        <section class="card" data-aos="fade-up">
+         <div>
+            <img src="images/volunteer.jpg" alt="book">
+         </div>
+            
+         <div>
+                <h3>VOLUNTEERING</h3>
+                <p>
+                     I have been volunteering in my programming club to help students in learning 
+                     Scratch,3D programming using Javasript Libraries and Python.
+                </p>
+         </div>
+        </section>
+    </main>
+ 
+<main class="container">
+        <h2 class="main-header">PUBLICATIONS</h2>
+        <section class="card2">
+            <div>
+                <img src="images/book.png" alt="book">
+            </div>
+            
+            <div>
+                <h3>SUPERFUN P5.JS PROJECTS</h3>
+                <p>
+                 I have co-author the book "Superfun P5.js Projects",for beginners. My contribution are 
+                 3D projects made using p5.js WEBGL library.
+                 <br> 
+                 
+                </p>
+                <a href="https://www.amazon.co.uk/Superfun-P5-js-Projects-Nazia-Fakhruddin-ebook/dp/B07YP1M69Q" target="_blank" class="btn"> BUY HERE</a>
+            </div>
+        </section>
+</main> 
+<section id="about-me" data-aos="zoom-in">
+    <div class="headings">
+        <h2>ABOUT ME</h2>
+    </div>
+    <div class="about-container">
+        <img class="author" src="images/coding.jpg" alt="author picture">
+        <div class="about-author">
+            <br>
+            <p > I am an inquisitive and creative person who likes coding in Python and Javasript, making Robots, playing Piano and Tennis
+                and learning German. The reason why I like to code is because it allows me to be as creative as I can be. I make
+                coding video tutorials for beginners because knowing that someone learned from my work humbles me. 
+                I like making simulators because you need to think about different
+                challenges and the result is fun to make and play around with. Robotics is also one of
+                the things I like because it goes hand-in-hand with coding. I find AI and
+                machine learning very interesting as they open up a new horizon for building useful applications.For relaxation, 
+                I play Piano and compose melodies which you can find on my website.Hope you find my work interesting.   
+            </p>
+            <h4 style="float:right">-<i>Haseeb</i> </h4>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div>
+        <h1 class="logo-small text-primary">
+            HZ
+        </h1>
+        <div>
+            <a target="_blank" href="https://twitter.com/HzRobo"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://www.youtube.com/c/CodewithHZ"><i class="fab fa-youtube colour"></i></a>
+        </div>
+        <div>
+            Copyright &copy; 2021
+        </div>
+    </div>
+</footer>
+<!--Animation Script-->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          offset:300,
+          duration:2000
+      });
+    </script>
+    </body>
 </html>
