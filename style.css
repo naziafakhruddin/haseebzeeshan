@@ -95,7 +95,7 @@ img{
 .hero .content h1 .change::after{
     content:'CREATIVITY';
     background:#fff;
-    opacity:0.8;
+    
     font-size:40px;
     font-weight:600;
     font-family:'Zen Tokyo Zoo', cursive;
