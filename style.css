@@ -96,8 +96,8 @@ img{
     content:'CREATIVITY';
     background:#fff;
     opacity:0.8;
-    font-size:45px;
-    font-weight:500;
+    font-size:40px;
+    font-weight:600;
     font-family:'Zen Tokyo Zoo', cursive;
     padding:0px 5px 0px 0px;
     animation: change 5s linear infinite;
@@ -105,16 +105,16 @@ img{
 @keyframes change{
     0%{
         content:'CREATIVITY';
-        color:#9a4c95;
+        color:#aa3ca3;
     }
     50%{
         content:'ARTISTRY';
-        color:#4682b4;
+        color:#3885c5;
         
     }
     100%{
         content:'INGENUITY';
-        color:#0d5c63;
+        color:#0a5d64;
     }
 }
 
