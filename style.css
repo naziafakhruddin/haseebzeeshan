@@ -1,653 +1,191 @@
-
 *{
-    box-sizing:border-box;
-    padding:0;
-    margin:0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+    
 }
 body{
-    font-family:'Poppins',san-serif;
-    background:#fff;
-    color:#333;
-    line-height: 1.6 ;
+    background:#acccde;
+    color:#000;
 }
-ul{
-    list-style:none;
-}
-a{
-    color:#333;
-    text-decoration:none;
-    font-weight:bold;
-}
-h1,h2{
-    font-weight:300;
-    line-height:1.2;
-}
-p{
-    margin:10px 0;
-}
-img{
-    width:100%;
-}
-
-/* Navbar */
-.navbar{
-    display:flex;
-    align-items:center ;
-    justify-content:space-between;
-    background:#eee;
-    color:#fff;
-    opacity:0.8;
-    width:100%;
-    height:70px;
-    position:fixed;
-    top:0px;
-    z-index:10;
-    padding:20px 0px 30px 30px;
-}
-.navbar a{
-    color:#4682b4;
-    font-weight:bold;
-    padding:10px 10px;
-    margin: 0px 10px 0px 0px;
-}
-.navbar a:hover{
-    border-bottom:2px solid #857e61;
-}
-.navbar ul{
-    display:flex;
-}
-.navbar .logo{
-    font-family:'Zen Tokyo Zoo', cursive;
-    font-size:30px;
-    font-weight:400;
-    color:#050;
-}
-/* Header*/
-.hero{
-    background:url(images/boy1.svg);
-    background-repeat:no-repeat;
-    background-position:center bottom;
-    background-size:500px;
-    height:100vh;
-    width:100%;
-    position:relative;
-    color:#050;
-    margin-bottom:50px;
+#header{
+    
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
-.hero .content{
-    display:flex;
-    flex-direction:column;
-    justify-content:center;
-    align-items:center;
-    text-align:center;
-    height:100%;
-    padding:0 20px;
-    
-}
-.hero .content h1{
-    font-size:45px;
-    font-weight:500;
-    background:#fff;
-    opacity:0.8;
-    padding:20px;
-}
-.hero .content h1 .change::after{
-    content:'CREATIVITY';
-    background:#fff;
-    
-    font-size:40px;
-    font-weight:600;
-    font-family:'Zen Tokyo Zoo', cursive;
-    padding:0px 5px 0px 0px;
-    animation: change 5s linear infinite;
-}
-@keyframes change{
-    0%{
-        content:'CREATIVITY';
-        color:#aa3ca3;
-    }
-    50%{
-        content:'ARTISTRY';
-        color:#3885c5;
-        
-    }
-    100%{
-        content:'INGENUITY';
-        color:#0a5d64;
-    }
-}
-
-#projects{
-    display:flex;
-    flex-wrap:wrap;
-    flex-direction:row;
-    align-items:center;
-    justify-content: center;
-    text-align:center;
-    padding:40px 0px 0px 0px;
-    font-size:18px ;
-    margin:auto auto 50px auto;
-    overflow:auto;
-    line-height:1.2;
-    max-width:1100px;
-    
-}
-.headings{
-    align-items:center;
-    justify-content: center;
-    text-align:center;
-    padding:40px 0px 20px 0px;
-    font-size:22px ;
-    margin-bottom:0px;
-    line-height:30px;
-}
-.headings p , a{
-    font-size:15px; 
-    margin:30px; 
-}
- #projects .portfolio{
-    flex-wrap:wrap;
-    justify-content: center;
-    margin:20px;
-}
-.portfolio .item{
-    position:relative;
-    width:280px;
-    height:280px;
-    margin:5px;
-}
-.portfolio .item img{
-    width:100%;
-    height:100%;
-    border:2px solid #eee;
-    box-shadow:0px 10px 30px rgba(0,0,0,0.1);  
-}
-.portfolio .item .action{
-    position:absolute;
-    bottom:0;
-    width:100%;
-    height:100%;
-    background:rgba(0,0,0,0.3);
-    display:flex;
-    justify-content:center;
-    align-items:center; 
-}
-.portfolio .item .action a{
-    color:#fff;
-    font-size:18px;
-    text-decoration:none;
-    border:1px solid #fff;
-    padding:5px 15px;
-}
-
-/*---Books---*/
+/* Background of nav */
 .container{
-    max-width:1100px;
-    margin:auto auto 50px auto;
-    overflow:hidden;
-    padding: 0 32px;
-    position:relative;
-   
-}
-.main-header{
-    height:45vh;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content: center;
-    text-align:center;
-    padding:40px 0px 0px 0px;
-    font-size:2.1rem ;
-    margin-bottom:0px;
-    line-height:1.2;
-}
-img{
-    width:100%;
-    
+    padding: 10px 10%;
+    background-color: #1B1E30;
+    opacity:0.8;
 }
 
-.card{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+nav{
+    display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin-bottom:30px;
-    background:linear-gradient(8.8rad,#eee,#fff,#ddd); 
-    border:2px outset #ddd; 
-    border-radius:10px;
+    flex-wrap: wrap;
+    
 }
-.card2{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: #fff;
+}
+
+nav ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content:'';
+    width: 0;
+    height: 3px;
+    background:#fff;
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    transition: 0.2s;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+    bottom:-6px
+}
+
+
+.top-header {
+    padding: 60px 20px 0 50px;
+    font-family: Arial;
+    font-size: 40px;
+    animation: 2s anim-lineUp ease-out;
+}
+
+.top-header2 {
+    padding: 15px 20px 60px 50px;
+    font-family: Arial;
+    font-size: 40px;
+    animation: 6s anim-lineUp ease-out;
+}
+
+@keyframes anim-lineUp {
+    0% {
+        opacity: 0;
+        transform: translateY(80%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+
+.highlight{
+    padding-left: 50px;
+    font-size: 42px;
+    font-family: 'MuseoModerno', cursive;
+    color: steelblue;
+    animation: 10s anim-lineUp ease-out;
+}
+
+.separate{
+    padding: 10px 20px 60px 190px;
+    font-family: Arial;
+    font-size: 40px;
+    animation: 7s anim-lineUp ease-out;
+}
+
+.code-highlight{
+    font-family: 'MuseoModerno', cursive;
+    text-transform: uppercase;
+    background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+    );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    display: inline-block;
+    font-size: 42px;
+    padding-left: 340px;
+    padding-top: 10px;
+    animation:10s anim-lineUp ease-out;
+}
+
+.quote{
+    padding-top: 15%;
+}
+
+.container-quote{
+    background-color: #acccde;
+    width:40%;
+    opacity:0.8;
+    border-radius:15px 100px;
+    
+}
+
+/* ----About---- */
+#about{
+    padding:0px 0;
+    color:#ababab;
+}
+
+.row{
+    padding-top:25px;
+    display: flex;
     justify-content: space-between;
-    margin-bottom:30px;
-    background:linear-gradient(8.8rad,#ddd,#eee,#ddd);
-    border:2px outset #ddd;
-    border-radius:10px;
+    flex-wrap: wrap;
+    
 }
 
-.card2 h3{
-    margin:30px 30px 30px 0px;
-}
-.card2 img{
-    flex:1;
-    flex-direction:row;
-    overflow:hidden;
-    padding:10px;
-    width:350px;
-    height:350px;
+.about-col-1{
+    flex-basis: 35%;
 }
 
-.card2 > div{
-    flex:2;
-    padding:20px;
-}
-.card2 h3{
-    margin-bottom:30px;
-}
-.card img{
-    flex:1;
-    overflow:hidden;
-    padding:10px;
-    width:350px;
-    height:350px;
-}
-.card .para{
-    font-size:15px;
-}
-.card blockquote{
+.about-col-1 img{
     width:100%;
-    height:100%;
-    padding:5px;
-}
-.card > div{
-    flex:2;
-    padding:10px;
-}
-.card:nth-child(odd) img{
-    order:2;
-}
-/* Videos*/
-#videos{
-    max-width:1100px;
-    margin:auto auto 150px auto;
-    overflow:auto;
-    padding: 0 32px;
-    position:relative;
-    
-    
-}
-#videos .headings{
-    margin-top:200px;
-}
-.video-container{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items: center;
-    margin:4rem;
-    
-}
-.video-container .main-video{
-    flex:2;
-    order:1; 
-   
-}
-.video-container .main-video iframe{
-    width:460px;
-    height:315px;
-    padding:15px;
-
-}
-.video-container .main-video h3{
-  padding:15px;
-}
-.video-container .main-video p{
-    width:440px;
-    padding:15px;
-    
-}
-.video-container .other-video{
-    flex:1;
-    order:2;
-    margin:auto;
-}
-.video-container .other-video iframe{
-    width:220px;
-    height:150px;
-    padding:0px;
-    
-}
-/*Blogs*/
-#blog{
-    max-width:1100px;
-    margin:auto auto 150px auto;
-    overflow:hidden;
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items: center;
-    padding:10px;
-    position:relative;
-   
-}
-.blog-container{
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items: center;
-    margin:8px;
-    border:2px outset #ddd;
-    border-radius:10px;
-    
-}
-.blog-container img{
-    width:250px;
-    height:230px;
-    padding:10px;
-    margin-left:5px;
-}
-.blog-container .blog-head h3{
-    width:280px;
-    height:50px;
-    margin-left:5px;
-    text-align:center;
-    font-size:15px;
-}
-embed{
-    width:100%;
-    height:100%;
-    scroll-behavior:auto;
-}
-/* About Me*/
-
-.about-container{
-    flex-direction:column;
-    flex-wrap:wrap;
-    padding:10px;
-    margin:5px;
-    border:2px outset #ddd;
-    border-radius:10px;
-}
- .author{
-    float:left;
-    width:250px;
-    height:280px;
-    padding:50px 30px 30px 20px;
-    border-radius:50% 20% ;
-    shape-outside:circle(50%);  
+    border-radius: 15px;
 }
 
-.about-author{
-    width:100%;
-    height:auto;
-    padding:20px;
+.about-col-2{
+    flex-basis: 60%;
 }
 
-/*Footer*/
-footer{
-    position:relative;
-    bottom:0;
-    height:auto;
-    background:#eee;
-    padding:50px 0px 50px 0px;
-    overflow:auto;
-    margin:0px;
-    text-align:center;
-    width:100%;
-    color:#333;
+.sub-title{
+    font-size: 60px; 
+    font-weight: 600;
+    color:#fff;
 }
-footer .logo-small{
-    font-family:'Zen Tokyo Zoo', cursive;
-    font-size:30px;
-    font-weight:400;
-    color:#050;
-}
-footer a i{
-    color:#050;
-    font-size:25px;
-    margin:10px 0px 10px 0px ;
-    padding:0px;
-}
-footer a i:hover{
-    color:#4682b4;
-}
-footer a .colour:hover{
-    color:red;
-}
-
-/*VideoTutorials Page*/
-.vt-container{  
-        display:flex;
-        flex-direction:column;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items: center;  
-}
-.vt-head{
-    text-align:center;
-}
-.basic-video{
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
-    margin:10px;
-    justify-content:center;
-    align-items: center;   
-}
- .basic-video iframe{
-    justify-content:center;
-    margin: auto;
-    padding:10px;
-    width:300px;
-    height:215px;
-    
-    
-}
-/*------Media Queries-------------------------------------*/
-@media(max-width:480px){
-    /*books*/
-    .card{
-        flex-wrap:wrap;
-        flex-direction:column;
-        width:100%;
-        
-    }
-    .card h3{
-        font-size:15px;
-    }
-    .card .para{
-        font-size:13px;
-    }
-    .card2 .para{
-        font-size:13px;
-    }
-    .card img{
-        flex:1;
-        padding:10px;
-        width:100%;
-        height:300px;
-    }
-    .card2{
-        flex-wrap:wrap;
-        flex-direction:column;
-    }
-    .card2 img{
-        flex:1;
-        flex-wrap:wrap;
-        padding:10px;
-        width:220px;
-        height:220px;
-    }
-    .card blockquote{
-        flex-wrap:wrap;
-        width:100%;
-        height:100%;
-    }
-    footer a i{
-        color:#857e61;
-        font-size:25px;
-        letter-spacing:2px;
-        margin:20px 0px 20px 0px ;
-        padding:0px;
-    }
-}
-@media(max-width:414px){
-    /* Navbar */
-
-    .navbar ul{
-        display:flex;
-        flex-direction:row;
-        flex-wrap:wrap;
-    }
-
-    .navbar a{
-        padding:20px 5px 0px 5px;
-        margin:0px 2px;
-        font-size:10px;
-    }
-    .navbar .logo{
-        font-family:'Zen Tokyo Zoo', cursive;
-        font-size:15px;
-        font-weight:400;
-    }
-    /* Header*/
-    .hero{
-        background:url(images/boy1.svg);
-        background-repeat:no-repeat;
-        background-position:left bottom;
-        background-size:100%;
-        height:100vh;
-        width:100%;
-        position:relative;
-        color:#050;
-        margin-bottom:50px;
-    }
-    
-    .hero .content h1{
-        font-size:20px;
-        background:#fff;
-        opacity:0.8;
-        padding:10px;
-    }
-    .hero .content h1 .change::after{
-        opacity:0.8;
-        font-size:20px;
-    }
-    /*books*/
-    .card img{
-        flex:1;
-        padding:20px;
-        width:100%;
-        height:350px;
-    }
-    .card2 img{
-        flex:1;
-        flex-wrap:wrap;
-        padding:10px;
-        width:100%;
-        height:300px;
-    }
-    /* projects*/
-    .headings{
-        font-size:18px; 
-    }
-    .main-header{
-        font-size:1.5rem ;
-        
-    }
-
-    /* videos*/
-    .video-container .main-video{
-        flex:2;
-        order:1;  
-    }
-    .video-container .main-video iframe{
-        width:230px;
-        height:215px;
-        padding:10px;
-    
-    }
-    .video-container .main-video h3{
-      padding:15px;
-    }
-    .video-container .main-video p{
-        width:230px;
-        padding:15px;
-        
-    }
-    .video-container .other-video iframe{
-        width:230px;
-        height:115px;
-    }
-    /*blog*/
-    .blog-container{
-        display:flex;
-        flex-direction:column;
-        flex-wrap:wrap;
-        justify-content:center;
-        align-items: center;
-        border:2px solid #eee;
-        
-    }
-    .blog-container img{
-        width:220px;
-        height:200px;
-        padding:2px;
-        margin-left:5px;
-    }
-    .blog-container .blog-head h3{
-        width:230px;
-        height:30px;
-        margin-left:5px;
-        text-align:center;
-        font-size:10px;
-    }
-    
-    
-    /* About Me*/
-    .author{
-        float:left;
-        width:100%;
-        height:100%;
-        overflow:auto;
-        padding:50px 30px 30px 20px;
-        border-radius:60% 40%;
-        shape-outside:circle(50% 50%);  
-    }
-    
-    .about-author{
-        width:100%;
-        height:100%;
-        padding:20px;
-    }
-    .about-author .para{
-        font-size:12px;
-    }
-    .about-author h3{
-        font-size:15px;
-    }
-    .basic-video iframe{
-        justify-content:center;
-        margin: auto;
-        padding:10px;
-        width:100%;
-        height:150px;
-        
-        
-    }
-
-    /*footer*/
-    footer a i{
-        color:#857e61;
-        font-size:18px;
-        margin:20px 2px 20px 2px ;
-       
-    }
-}
-
