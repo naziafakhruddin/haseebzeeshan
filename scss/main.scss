@@ -1,8 +1,14 @@
-body {
-    font-family: 'Dosis', sans-serif;
-}
-
 *{
     margin:0;
     padding:0;
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    line-height: 1.6;
+    background: #fff;
+}
+
+a {
+    text-decoration: none;
 }
