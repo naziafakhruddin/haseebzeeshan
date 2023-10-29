@@ -28,6 +28,13 @@ img{
     width:100%;
 }
 
-#header{
-    
+#header {
+    &-home {
+        background: $bg-image no-repeat center right / cover;
+        height: 100vh;
+        color: #fff;
+    }
+
+    &-inner{
+    }
 }
