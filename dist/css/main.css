@@ -28,6 +28,13 @@ a[class^='btn-']:hover,
 input[class^='btn-']:hover {
   background-color: #ffbc00; }
 
+.lead {
+  font-size: 1.3rem;
+  margin-bottom: 2rem; }
+
+.text-center {
+  text-align: center; }
+
 * {
   margin: 0;
   padding: 0; }
